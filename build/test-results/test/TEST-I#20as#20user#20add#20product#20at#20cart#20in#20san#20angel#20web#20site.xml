@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="I as user add product at cart in san angel web site" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-10-24T21:24:36" hostname="Manuels-MacBook-Pro.local" time="1.455">
+<testsuite name="I as user add product at cart in san angel web site" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-10-24T21:43:38" hostname="Manuels-MacBook-Pro.local" time="1.352">
   <properties/>
-  <testcase name="Add product to cart" classname="I as user add product at cart in san angel web site" time="1.455">
+  <testcase name="Add product to cart" classname="I as user add product at cart in san angel web site" time="1.352">
     <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
 	at app//net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:168)
 	at app//net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:156)
@@ -10,7 +10,7 @@
 	at app//net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:983)
 	at app//net.serenitybdd.core.pages.PageObject.openUrl(PageObject.java:929)
 	at app//net.serenitybdd.screenplay.actions.OpenUrl.performAs(OpenUrl.java:18)
-	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$vVVWUmVE.performAs$accessor$79FhJnSQ(Unknown Source)
+	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$ZwHQywpy.performAs$accessor$HgpTRiw2(Unknown Source)
 	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -22,7 +22,7 @@
 	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
 	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
 	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$vVVWUmVE.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$ZwHQywpy.performAs(Unknown Source)
 	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:283)
 	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:262)
 	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:203)
@@ -30,7 +30,7 @@
 	at app//net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:186)
 	at app//com.sqa.steps.AddProductSteps.userInSanangelWeb(AddProductSteps.java:28)
 	at ✽.user in sanangel web(file:///Users/manuel/Documents/projects/selenium/reto-tecnico-sqa/src/test/resources/features/add_products.feature:5)
-Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Unable to establish websocket connection to http://localhost:57025/devtools/browser/d59e6695-b2cf-4e61-9c8b-62e00ae67aa1
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Unable to establish websocket connection to http://localhost:63339/devtools/browser/766172b2-034f-45f0-8e7d-065646511dae
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.6', java.version: '17.0.12'
 Driver info: driver.version: ChromeDriver). See below for more details.
@@ -42,7 +42,7 @@ Driver info: driver.version: ChromeDriver). See below for more details.
 	at app//net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:983)
 	at app//net.serenitybdd.core.pages.PageObject.openUrl(PageObject.java:929)
 	at app//net.serenitybdd.screenplay.actions.OpenUrl.performAs(OpenUrl.java:18)
-	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$vVVWUmVE.performAs$accessor$79FhJnSQ(Unknown Source)
+	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$ZwHQywpy.performAs$accessor$HgpTRiw2(Unknown Source)
 	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +54,7 @@ Driver info: driver.version: ChromeDriver). See below for more details.
 	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
 	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
 	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$vVVWUmVE.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.actions.OpenUrl$ByteBuddy$ZwHQywpy.performAs(Unknown Source)
 	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:283)
 	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:262)
 	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:203)
@@ -125,7 +125,7 @@ Driver info: driver.version: ChromeDriver). See below for more details.
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57025/devtools/browser/d59e6695-b2cf-4e61-9c8b-62e00ae67aa1
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:63339/devtools/browser/766172b2-034f-45f0-8e7d-065646511dae
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.6', java.version: '17.0.12'
 Driver info: driver.version: ChromeDriver
@@ -144,13 +144,13 @@ Driver info: driver.version: ChromeDriver
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 130.0.6723.69 (3ec172b971b9478c515a58f591112c5c23fa4965-refs/branch-heads/6723@{#1452}) on port 49741
+  <system-err><![CDATA[Starting ChromeDriver 130.0.6723.69 (3ec172b971b9478c515a58f591112c5c23fa4965-refs/branch-heads/6723@{#1452}) on port 57043
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 49741.
-Oct 24, 2024 4:24:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 57043.
+Oct 24, 2024 4:43:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Oct 24, 2024 4:24:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Oct 24, 2024 4:43:40 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=403 text=Forbidden
 java.io.IOException: Invalid Status code=403 text=Forbidden
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
