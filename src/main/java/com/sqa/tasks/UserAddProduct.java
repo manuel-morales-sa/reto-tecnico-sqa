@@ -1,7 +1,6 @@
 package com.sqa.tasks;
 
 import com.sqa.ui.AddProductsUi;
-import com.sqa.ui.Home;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -13,7 +12,6 @@ public class UserAddProduct implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(Home.LOGIN),
                 Click.on(AddProductsUi.FIRST_ELEMENT),
                 Click.on(AddProductsUi.SELECT_DATE),
                 Click.on(AddProductsUi.SELECT_TIME),
@@ -27,7 +25,8 @@ public class UserAddProduct implements Task {
                 Click.on(AddProductsUi.ADD_TO_CART)
         );
     }
-    public static UserAddProduct makeinformation(){
+
+    public static UserAddProduct makeinformation() {
         return instrumented(UserAddProduct.class);
     }
 }
